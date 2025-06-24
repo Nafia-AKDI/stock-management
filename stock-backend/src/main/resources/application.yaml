@@ -1,0 +1,29 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+spring:
+  application:
+    name: stock-Backend
+    version: 0.0.1
+  profiles:
+    active: local
+  main:
+    allow-bean-definition-overriding: true
+  jpa:
+    show-sql: 'false'
+  flyway:
+    baseline-on-migrate: true
+    out-of-order: true
+
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+
+application:
+  jwt:
+    secretKey: i5^oQ63FeY#N1K@QBQbiY$Xio$MyyA9J7FG
+    tokenPrefix: Bearer
+    tokenExpirationAfterDays: 1
