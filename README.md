@@ -29,12 +29,17 @@ A full-stack inventory management system with PostgreSQL database, Docker suppor
 - Docker 20.10+ and Docker Compose
 - PostgreSQL 13 (or use the Docker version provided)
 
+
+## Watch the demo video: 
+### [Stock Management demo](https://github.com/Nafia-AKDI/stock-management/blob/main/Stock%20Management%20demo.mp4)
+
+
 ## Getting Started
 
 ### 1. Database Setup
 
 Start the PostgreSQL container:
 ```bash
-docker-compose up -d postgres
+docker-compose up -d postgres b
 
-### 2. Watch the demo video: [Stock Management demo](https://github.com/Nafia-AKDI/stock-management/blob/main/Stock%20Management%20demo.mp4)
+
