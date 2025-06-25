@@ -37,3 +37,4 @@ Start the PostgreSQL container:
 ```bash
 docker-compose up -d postgres
 
+### 2. Watch the demo video: [Stock Management demo](https://github.com/Nafia-AKDI/stock-management/blob/main/Stock%20Management%20demo.mp4)
